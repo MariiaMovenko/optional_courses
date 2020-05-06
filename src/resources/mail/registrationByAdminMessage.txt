@@ -1,0 +1,9 @@
+Congratulations! You just have been successfully registered to our OPTIONAL COURSES web-site.
+Your login is %s and your password is %s . Please, pay attention that we  STRONGLY RECOMMEND  to change the password to your own one!
+
+Please click on the link below to activate your account and to verify your email address.
+
+http://localhost:8080/OptionalCourses/confirm_registration?confirmation_code=%s_%s
+
+Your sincerely,
+Optional Courses' team!

@@ -1,0 +1,17 @@
+.body {
+    display: inline-block;
+    background: url(http://localhost:8080/OptionalCourses/img/desk_coffee.jpg) center/cover no-repeat;
+    height: 10vh;
+    margin: 0;
+    color: white;
+}
+
+.h000 {
+    margin: .4em 2rem;
+    font: 4em Roboto;
+}
+.p {
+    display: flex;
+    margin: .2em 2rem;
+    font: 2em Roboto;
+}

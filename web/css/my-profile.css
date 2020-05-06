@@ -1,0 +1,32 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    background-color: black;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+.title {
+    color: grey;
+    font-size: 14px;
+}
+
+.my_profile_button{
+    border: 2px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: whitesmoke;
+    background-color: #646b73;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.person-img{
+    width:100%;
+    margin:auto;
+}

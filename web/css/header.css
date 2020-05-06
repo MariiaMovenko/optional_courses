@@ -1,0 +1,12 @@
+.dropdown-menu.show {
+    min-width: 0;
+}
+
+.account {
+    margin-right: 30px;
+    width: 65px;
+}
+
+.menu {
+    height: min-content;
+}

@@ -1,0 +1,77 @@
+.courses {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.courses-cards {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses-cards > .card {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.accordion {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    min-width: 360px;
+}
+
+.pagination-container {
+    margin-top: 30px;
+}
+
+.submit-sort {
+    margin-top: 10px;
+}
+
+.picker-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.picker-card {
+    max-width: 150px;
+}
+
+.picker-card.active {
+    border-color: #007bff !important;
+    background-color: #007bff !important;
+    color: #fff !important;
+}
+
+.courses-tabs {
+    background-color: lightgray;
+}
+
+.courses-tabs > .nav-item > .nav-link {
+    background-color: lightgray;
+}
+
+.courses-tabs > .nav-item > .nav-link.active {
+    background-color: white !important;
+}
+
+.alert {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.my-courses.active.show {
+    display: flex !important;
+    justify-content: flex-start;
+}
+
+.my-courses > .card {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+}

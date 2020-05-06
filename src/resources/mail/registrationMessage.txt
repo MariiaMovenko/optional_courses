@@ -1,0 +1,8 @@
+Congratulations! You just have been successfully registered to our OPTIONAL COURSES web-site.
+
+Please click on the link below to activate your account and to verify your email address.
+
+http://localhost:8080/OptionalCourses/confirm_registration?confirmation_code=%s_%s
+
+Your sincerely,
+Optional Courses' team!

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+    <action path="/courses.html">
+        <role name="admin"/>
+        <role name="student"/>
+        <role name="guest"/>
+        <role name="lector"/>
+    </action>
+
+    <action path="/student_courses">
+        <role name="student"/>
+    </action>
+    <action path="/course-card.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/show_courses">
+        <role name="admin"/>
+        <role name="student"/>
+        <role name="lector"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/journal/report">
+        <role name="lector"/>
+    </action>
+
+    <action path="/courses_count">
+        <role name="admin"/>
+        <role name="student"/>
+        <role name="lector"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/all_themes">
+        <role name="admin"/>
+        <role name="student"/>
+        <role name="lector"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/get_lectors">
+        <role name="admin"/>
+        <role name="student"/>
+        <role name="lector"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/lector-courses.html">
+        <role name="lector"/>
+    </action>
+
+    <action path="/lector_courses">
+        <role name="lector"/>
+    </action>
+
+    <action path="/journal.html">
+        <role name="lector"/>
+    </action>
+
+    <action path="/show_journal">
+        <role name="lector"/>
+    </action>
+
+    <action path="/update_journal">
+        <role name="lector"/>
+    </action>
+
+    <action path="/student-courses.html">
+        <role name="student"/>
+    </action>
+
+
+    <action path="/create-course.html">
+        <role name="admin"/>
+    </action>
+
+    <action path="/createCourse">
+        <role name="admin"/>
+    </action>
+
+    <action path="/course_info">
+        <role name="admin"/>
+    </action>
+
+    <action path="/enroll">
+        <role name="student"/>
+    </action>
+
+    <action path="/ban">
+        <role name="admin"/>
+    </action>
+
+    <action path="/ban.html">
+        <role name="admin"/>
+    </action>
+
+    <action path="/ban_manager">
+        <role name="admin"/>
+    </action>
+
+    <action path="/delete_course">
+        <role name="admin"/>
+    </action>
+
+    <action path="/update_course">
+        <role name="admin"/>
+    </action>
+
+    <action path="/update-course.html">
+        <role name="admin"/>
+    </action>
+
+
+    <action path="/my_profile.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/logout">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/update_my_info.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/update_my_info">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/upload_file">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/upload_file.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/find_image">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/change_password">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/change_password.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+    </action>
+
+    <action path="/restore_password">
+        <role name="guest"/>
+    </action>
+
+    <action path="/restore_password.html">
+        <role name="guest"/>
+    </action>
+
+    <action path="/register-somebody.html">
+        <role name="admin"/>
+    </action>
+
+    <action path="/register_somebody">
+        <role name="admin"/>
+    </action>
+
+    <action path="/confirm_registration">
+        <role name="guest"/>
+    </action>
+
+    <action path="/success_registration.html">
+        <role name="guest"/>
+    </action>
+
+    <action path="/add_theme">
+        <role name="admin"/>
+    </action>
+
+    <action path="/add-theme.html">
+        <role name="admin"/>
+    </action>
+
+    <action path="/main.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/login.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/login">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/registration.html">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+        <role name="guest"/>
+    </action>
+
+    <action path="/registration">
+        <role name="admin"/>
+        <role name="lector"/>
+        <role name="student"/>
+        <role name="guest"/>
+    </action>
+
+</map>

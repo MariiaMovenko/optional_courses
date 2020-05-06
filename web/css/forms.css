@@ -1,0 +1,58 @@
+.login-form {
+    border-style: solid;
+    border-radius: 9px;
+    border-color: lightsteelblue;
+    padding: 30px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.registration-form {
+    border-style: solid;
+    border-radius: 9px;
+    border-color: lightsteelblue;
+    padding: 30px;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.update-user-form{
+    border-style: solid;
+    border-radius: 9px;
+    border-color: lightsteelblue;
+    padding: 20px;
+    width: 500px;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.changingPassword-form {
+    border-style: solid;
+    border-radius: 9px;
+    border-color: lightsteelblue;
+    padding: 30px;
+    width: 500px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.err-message{
+    color: red;
+}
+.shift{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .login-form {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,11 @@
+<head>
+        <link href="<c:url value="/css/footer.css"/>" rel="stylesheet">
+</head>
+<footer class="footer">
+        <nav class="navbar fixed-bottom navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">&copy;Optional Courses, 2020. All rights reserved</a>
+        </nav>
+        <script src="<c:url value="/js/jquery-3.3.1.slim.min.js"/>" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="<c:url value="/js/popper.min.js"/>"  crossorigin="anonymous"></script>
+        <script src="<c:url value="/js/bootstrap.min.js"/>" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</footer>
