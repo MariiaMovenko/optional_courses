@@ -41,15 +41,13 @@ public class JournalDAOImpl implements JournalDAO {
             "AND course_id = ? ";
 
     @Override
-    public boolean enrollStudent(User student, Connection connection, String... courseTitles) {
+    public boolean enrollStudent(User student, Connection connection, String courseTitle) {
         try (PreparedStatement preparedStatement = connection.prepareStatement(ENROLL_STUDENT)) {
             preparedStatement.setInt(1, student.getId());
-            for (String courseTitle : courseTitles) {
-                preparedStatement.setString(2, courseTitle);
-                preparedStatement.setString(3, courseTitle);
-                preparedStatement.executeUpdate();
-                increaseStudentsCourseCount(courseTitle, connection);
-            }
+            preparedStatement.setString(2, courseTitle);
+            preparedStatement.setString(3, courseTitle);
+            preparedStatement.executeUpdate();
+            increaseStudentsCourseCount(courseTitle, connection);
         } catch (SQLException e) {
             LOG.error("Can't handle sql ['" + ENROLL_STUDENT + "']", e);
             throw new OperationDaoException("Can't handle sql ['" + ENROLL_STUDENT + "']", e);

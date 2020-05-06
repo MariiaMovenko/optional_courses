@@ -14,10 +14,10 @@ public interface JournalDAO {
      *
      * @param student      defines a {@code student.getUserId()} id of the user who enrolls to the courses.
      * @param connection   to Database
-     * @param courseTitles defines title(s) of the courses student enrolls to
+     * @param courseTitle defines title of the course student enrolls to
      * @return {@code true} if there were thrown no exceptions during execution of this method
      */
-    boolean enrollStudent(User student, Connection connection, String... courseTitles);
+    boolean enrollStudent(User student, Connection connection, String courseTitle);
 
     /**
      * Returns an object that represents students of the particular course and their marks as a {@code Map<User, String>}

@@ -63,7 +63,7 @@ public class AuthorizationImpl implements Authorization {
      * @param xml is xml file to be parsed
      * @throws ParserConfigurationException when a serious configuration error was occurred during executing
      * @throws IOException                  if I/O operation was failed or interrupted
-     * @throws SAXException                 if some errors were occured during parsing the xml document
+     * @throws SAXException                 if some errors were occurred during parsing the xml document
      */
     public static AuthorizationImpl newInstance(File xml) throws ParserConfigurationException, IOException, SAXException {
 

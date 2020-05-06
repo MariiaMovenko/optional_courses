@@ -38,7 +38,7 @@ public class JournalServiceImplTest {
     @Test
     public void shouldEnrollStudent() throws Exception {
         User student = createUser(Role.STUDENT, UserStatus.ACTIVE);
-        String[] courseTitle = {"Title1", "Title2"};
+        String courseTitle = "Title";
         when(journalDAO.enrollStudent(student, transactionManager.getConnectionForTest(), courseTitle)).thenReturn(true);
 
         boolean enrolled = journalService.enrollStudent(student, courseTitle);

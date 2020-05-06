@@ -32,7 +32,7 @@ public class MailServiceTest {
     @Test
     public void shouldSendMailWithPassword() throws MessagingException {
         User userToSend = createUser(Role.STUDENT);
-        String password = "password";
+        String password = "0tt53H";
 
         mailService.sendMailWithPassw(userToSend, password);
     }
@@ -54,12 +54,12 @@ public class MailServiceTest {
     private User createUser(Role role) {
         User user = new User();
         user.setId(1);
-        user.setLogin("login");
+        user.setLogin("banMe");
         user.setPassword("password");
         user.setRole(role);
         user.setLastName("Petrov");
         user.setFirstName("Ivan");
-        user.setEmail("nko@gmail.com");
+        user.setEmail("m777ovenko@gmail.com");
         user.setStatus(UserStatus.ACTIVE);
         return user;
     }

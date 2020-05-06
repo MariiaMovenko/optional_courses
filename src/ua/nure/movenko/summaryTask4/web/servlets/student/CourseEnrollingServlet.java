@@ -28,9 +28,9 @@ public class CourseEnrollingServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
-        String[] courseTitles = request.getParameterValues(Params.TITLE);
+        String courseTitle = request.getParameter(Params.TITLE);
         User student = (User) request.getSession().getAttribute(Params.USER_INFO);
-        boolean isSubscribed = journalService.enrollStudent(student, courseTitles);
+        boolean isSubscribed = journalService.enrollStudent(student, courseTitle);
         if (!isSubscribed) {
             response.setStatus(304);
         }

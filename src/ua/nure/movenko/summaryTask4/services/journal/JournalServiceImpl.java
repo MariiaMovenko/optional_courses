@@ -24,9 +24,9 @@ public class JournalServiceImpl implements JournalService {
     }
 
     @Override
-    public boolean enrollStudent(User student, String... courseTitles) {
+    public boolean enrollStudent(User student, String courseTitle) {
         return transactionManager.execute(connection -> journalDAO
-                .enrollStudent(student, connection, courseTitles), Connection.TRANSACTION_REPEATABLE_READ);
+                .enrollStudent(student, connection, courseTitle), Connection.TRANSACTION_REPEATABLE_READ);
     }
 
     @Override

@@ -236,7 +236,8 @@ public class CourseDaoImplTest {
         testCourse2.setTitleDictionary(titleDictionary2);
         courseDAO.add(testCourse1, connection);
         courseDAO.add(testCourse2, connection);
-        journalDao.enrollStudent(student, connection, "Title", "Title2");
+        journalDao.enrollStudent(student, connection, "Title");
+        journalDao.enrollStudent(student, connection, "Title2");
 
         List<Course> result = courseDAO.getStudentCourses(student, connection);
         Assert.assertEquals(2, result.size());
